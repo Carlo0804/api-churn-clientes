@@ -44,11 +44,11 @@ if st.button("🔮 Predecir Riesgo de Fuga", use_container_width=True):
             st.subheader("Resultados del Modelo:")
             
             if resultado["alerta_fuga"]:
-                st.error(f"⚠️ ¡ALERTA! Alto riesgo de fuga.")
+                st.error(f"¡ALERTA! Alto riesgo de fuga.")
                 st.metric(label="Probabilidad de Abandono", value=resultado["probabilidad_abandono"])
-                st.info(f"💡 Sugerencia: {resultado['accion_sugerida']}")
+                st.info(f"Sugerencia: {resultado['accion_sugerida']}")
             else:
-                st.success(f"✅ Cliente estable. Bajo riesgo de fuga.")
+                st.success(f"Cliente estable. Bajo riesgo de fuga.")
                 st.metric(label="Probabilidad de Abandono", value=resultado["probabilidad_abandono"])
                 
         else:
