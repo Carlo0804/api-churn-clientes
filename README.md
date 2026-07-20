@@ -1,7 +1,7 @@
 # 📉 Sistema Predictivo de Retención de Clientes (Customer Churn)
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://api-churn-clientes-nbcjsbctduudracyaffl4k.streamlit.app/)
-[![API Docs](https://img.shields.io/badge/API_Docs-Swagger_UI-85EA2D?logo=fastapi)](https://api-churn-carlo.onrender.com/predecir_fuga)
+[![API Docs](https://img.shields.io/badge/API_Docs-Swagger_UI-85EA2D?logo=fastapi)](https://api-churn-carlo.onrender.com/docs)
 
 ## 📌 El Problema de Negocio
 En la industria de telecomunicaciones, el costo de adquirir un cliente nuevo es mucho mayor que el de retener uno existente. Este proyecto es una solución end-to-end de Machine Learning diseñada para identificar clientes con alto riesgo de abandono (Churn), traduciendo predicciones matemáticas en decisiones de negocio accionables (como ofrecer descuentos automáticos de retención).
@@ -22,8 +22,7 @@ Este proyecto fue diseñado con una arquitectura desacoplada para garantizar esc
 ## 🚀 Pruebas en Vivo (Live Demo)
 Puedes interactuar con el modelo directamente desde tu navegador sin instalar nada:
 1. **[Simulador Web (Streamlit)](https://api-churn-clientes-nbcjsbctduudracyaffl4k.streamlit.app/):** Interfaz visual para evaluar clientes.
-2. **[Documentación API ( UI)](https://api-churn-carlo.onrender.com/predecir_fuga):** Para probar los endpoints técnicos directamente.
-
+2. **[Documentación API (Swagger UI)](https://api-churn-carlo.onrender.com/docs):** Para probar los endpoints técnicos directamente.
 ## 💻 Cómo desplegar el proyecto localmente
 
 Si deseas correr todo el ecosistema en tu propia máquina a través de contenedores:
