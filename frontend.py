@@ -35,7 +35,7 @@ if st.button("🔮 Predecir Riesgo de Fuga", use_container_width=True):
     
     # Hacemos la llamada a tu contenedor Docker que está corriendo de fondo
     try:
-        respuesta = requests.post("http://127.0.0.1:8000/predecir_fuga/", json=datos_cliente)
+        respuesta = requests.post("https://api-churn-carlo.onrender.com", json=datos_cliente)
         
         if respuesta.status_code == 200:
             resultado = respuesta.json()
