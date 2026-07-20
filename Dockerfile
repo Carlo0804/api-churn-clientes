@@ -1,5 +1,5 @@
 # Usamos una imagen oficial de Python ligera
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # Le decimos a Docker dónde trabajar dentro del contenedor
 WORKDIR /app
