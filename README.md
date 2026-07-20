@@ -22,7 +22,7 @@ Este proyecto fue diseñado con una arquitectura desacoplada para garantizar esc
 ## 🚀 Pruebas en Vivo (Live Demo)
 Puedes interactuar con el modelo directamente desde tu navegador sin instalar nada:
 1. **[Simulador Web (Streamlit)](https://api-churn-clientes-nbcjsbctduudracyaffl4k.streamlit.app/):** Interfaz visual para evaluar clientes.
-2. **[Documentación API (Swagger UI)](https://api-churn-carlo.onrender.com/predecir_fuga):** Para probar los endpoints técnicos directamente.
+2. **[Documentación API ( UI)](https://api-churn-carlo.onrender.com/predecir_fuga):** Para probar los endpoints técnicos directamente.
 
 ## 💻 Cómo desplegar el proyecto localmente
 
